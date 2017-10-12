@@ -1,0 +1,10 @@
+body {
+	height: 100%;
+	width: 100%;
+	background:  url(../pict/wood_4.jpg);
+	background-image: url( ../pict/celtiCross.jpg );
+	//background-color: red;
+}
+body container {
+	margin: 25px;
+}
