@@ -1,0 +1,111 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background: radial-gradient(#FF9800, #332318);
+}
+body #container {
+	height: 850px;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	padding: 15px;
+	background: radial-gradient(#dcd61d, #4e1500);
+	border-radius: 50px;
+	display: flex;
+	flex-direction: column;
+}
+body #container header {
+	hieder 10px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: left;
+}
+body #container header #brand {
+	width: 175px;
+	height: 115px;
+	font-size: 34px;
+	color: #ffffff;
+	text-align: left;
+	position: absolute;
+	margin-left: 10px;
+	padding-left: 55px;
+}
+
+body #container header #navbar {
+	position: absolute;
+	width: 50%;
+	margin: 0 auto;
+  	top: 62px;
+  	left: 442px;
+}
+body #container header #navbar  ul {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}	
+body #container header #navbar  ul li {
+	display: inline-block;
+}
+body #container header #navbar  ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+body #container header #navbar  ul li a:hover {
+	color: #c7b29a;
+}
+body #container header #namOne  {
+	float: left;
+	width: 100%;
+	margin-top: 380px;
+	text-align: center;
+	font-size: 36px;
+	color: #ffffff;
+}
+body #container header #namTwo {
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 52px;
+	color: #ffffff;
+}
+body #container header #namThree {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 24px;
+	color: #ffffff;
+}
+body #container header #getStarted {
+	width: 100%;
+}
+body #container  #getStarted a {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: #445161;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+body #container #pict{
+	flex: 2 0 auto;
+}
+body #container #heroSettings {
+	flex: 2 0 auto;
+}
+body #container #texsts {
+	flex: 2 0 auto;
+}
+body #container footer {
+	text-align: center;
+	color: black;
+	flex: 0 0 auto;
+}
